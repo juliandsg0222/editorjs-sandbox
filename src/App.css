@@ -1,0 +1,14 @@
+.App {
+	margin-left: 15em;
+	margin-right: 15em;
+	margin-top: 5em;
+	text-align: center;
+}
+
+#editorjs {
+	text-align: left;
+}
+
+#output {
+	text-align: left;
+}
