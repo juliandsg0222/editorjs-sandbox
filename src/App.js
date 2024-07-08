@@ -66,7 +66,7 @@ function App() {
 				onReady: () => {
 					const undo = new Undo({ editor });
 					undo.initialize(initialData);
-					// new DragDrop(editor)
+					new DragDrop(editor)
 				},
 				data: initialData,
 			})
