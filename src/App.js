@@ -6,37 +6,36 @@ import Header from '@editorjs/header';
 import List from '@editorjs/list';
 import Undo from 'editorjs-undo';
 import DragDrop from 'editorjs-drag-drop';
-import ImageTool from '@editorjs/image';
 import InlineImage from 'editorjs-inline-image';
 
 function App() {
 	const initialData = {
 		blocks: [
-			{
-				id: 'mIz7N25ijFi',
-				type: 'paragraph',
-				data: {
-					text: 'Hello',
-				},
-			},
-			{
-				id: 'mIz7825ijF',
-				type: 'paragraph',
-				data: {
-					text: 'world',
-				},
-			},
-			{
-				id: '5b7MCJYRaP',
-				type: 'image',
-				data: {
-					url: 'https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg',
-					caption: '',
-					withBorder: false,
-					withBackground: false,
-					stretched: false,
-				},
-			},
+			// {
+			// 	id: 'mIz7N25ijFi',
+			// 	type: 'paragraph',
+			// 	data: {
+			// 		text: 'Hello',
+			// 	},
+			// },
+			// {
+			// 	id: 'mIz7825ijF',
+			// 	type: 'paragraph',
+			// 	data: {
+			// 		text: 'world',
+			// 	},
+			// },
+			// {
+			// 	id: '5b7MCJYRaP',
+			// 	type: 'image',
+			// 	data: {
+			// 		url: 'https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg',
+			// 		caption: '',
+			// 		withBorder: false,
+			// 		withBackground: false,
+			// 		stretched: false,
+			// 	},
+			// },
 		],
 	};
 
